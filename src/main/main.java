@@ -1,6 +1,8 @@
 package main;
 
-import controller.SimuladorMIPS;
+
+
+import controller.MipsSimulator;
 
 import java.util.ArrayList;
 
@@ -20,7 +22,7 @@ public class main {
 //        XEON.ImprimeInstrucoes();
 //        XEON.GravaEmDisco();
 
-        SimuladorMIPS mips = new SimuladorMIPS();
+        MipsSimulator mips = new MipsSimulator();
         
 
     }
